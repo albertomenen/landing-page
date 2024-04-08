@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sabo Masties",
-    designation: "Founder @ Rolex",
+    name: "Ramon Villalobos Masties",
+    designation: "Cirujano plástico en Madrid",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Estamos actualmente muy contentos en como funciona y como podemos gestionar a todos nuestros clientes con la plataforma .",
     image: "/images/testimonials/author-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Margin Gesmu",
-    designation: "Founder @ UI Hunter",
+    name: "Nicolas Alonso",
+    designation: "Cirujano plástico en Barcelona",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Mi equipo ahora gestiona todas las solicutudes que nos llegan de una manera mucho más eficiente y cercana.",
     image: "/images/testimonials/author-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "William Smith",
-    designation: "Founder @ Trorex",
+    name: "Esther Fernandez",
+    designation: "Cirujana plástica en Alicante",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Hemos experimentado un incremento en el número de clientes que recibimos durante estos meses, nos ha encantado lo intuitiva que es la plataforma.",
     image: "/images/testimonials/author-03.png",
     star: 5,
   },
