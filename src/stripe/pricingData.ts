@@ -4,7 +4,7 @@ export const pricingData: Price[] = [
   {
     id: "price_1NQk5TLtGdPVhGLecVfQ7mn0",
     unit_amount: 100 * 99,
-    nickname: "Basic",
+    nickname: "Básico",
     offers: [
       "1 perfil",
       "Acceso a mensajes",
@@ -31,7 +31,7 @@ export const pricingData: Price[] = [
   {
     id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
     unit_amount: 599 * 100,
-    nickname: "Business",
+    nickname: "Empresa",
     offers: [
       "-Creación de 10 perfiles diferentes",
       "-Sitio destacado en la pagina",

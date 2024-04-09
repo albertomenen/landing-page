@@ -17,9 +17,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Agenda de Cirugías Inteligente",
+    paragraph: "Herramientas de programación avanzadas que te permiten ajustarse a las urgencias y tus prioridades.",
+    btn: "Saber mas",
     btnLink: "/#",
   },
   {
@@ -38,9 +38,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Reseñas y Opiniones de Pacientes",
+    paragraph: "Una plataforma que fomenta la transparencia y mejora continua mediante la recopilación y análisis de opiniones y valoraciones de pacientes.",
+    btn: "Saber más",
     btnLink: "/#",
   },
   {
@@ -91,9 +91,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Gestión de Horarios Flexible",
+    paragraph: "Un sistema de gestión de horarios intuitivo que permite a los cirujanos personalizar y optimizar sus agendas.",
+    btn: "Saber mas",
     btnLink: "/#",
   },
   {
@@ -124,9 +124,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Automatización Administrativa",
+    paragraph: "Simplificación de procesos administrativos como la facturación médica.",
+    btn: "Saber mas",
     btnLink: "/#",
   },
 ];
