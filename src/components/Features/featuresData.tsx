@@ -17,8 +17,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Agenda de cirugias Inteligente",
+    paragraph: "Herramientas avanzadas para la planificación y programación de cirugías, permitiendo a los cirujanos organizar su calendario quirúrgico de manera eficiente.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -38,8 +38,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Gestión de Pacientes",
+    paragraph: "Una base de datos segura y fácil de usar para llevar un seguimiento de la historia clínica, notas postoperatorias y seguimiento de pacientes.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -91,8 +91,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
+    title: "Automatización de Tareas Administrativas",
+    paragraph: "Funcionalidades para la automatización de tareas administrativas, como la facturación y el registro de procedimientos.",
     btn: "Learn More",
     btnLink: "/#",
   },

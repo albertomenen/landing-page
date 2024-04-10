@@ -29,6 +29,7 @@ export default function RootLayout({
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
+      <script async src="https://tally.so/widgets/embed.js"></script>
 
       <body>
         {loading ? (
