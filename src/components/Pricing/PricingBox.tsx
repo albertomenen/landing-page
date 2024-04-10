@@ -29,7 +29,7 @@ const PricingBox = ({ product }: { product: Price }) => {
       >
         {product.nickname === "Premium" && (
           <p className="absolute right-[-50px] top-[60px] inline-block -rotate-90 rounded-bl-md rounded-tl-md bg-primary px-5 py-2 text-base font-medium text-white">
-            Recommended
+            Recomendado
           </p>
         )}
         <span className="mb-5 block text-xl font-medium text-dark dark:text-white">
@@ -44,13 +44,13 @@ const PricingBox = ({ product }: { product: Price }) => {
           </span>
           <span className="text-base font-normal text-body-color dark:text-dark-6">
             {" "}
-            Per Month
+            Mes
           </span>
         </h2>
 
         <div className="mb-[50px]">
           <h3 className="mb-5 text-lg font-medium text-dark dark:text-white">
-            Features
+            Beneficios
           </h3>
           <div className="mb-10">
             {product?.offers.map((offer, i) => (
@@ -63,7 +63,7 @@ const PricingBox = ({ product }: { product: Price }) => {
             onClick={handleSubscription}
             className="inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition duration-300 hover:bg-primary/90"
           >
-            Purchase Now
+            Comprar Ahora
           </button>
         </div>
       </div>

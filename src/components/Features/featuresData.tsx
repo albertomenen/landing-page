@@ -20,6 +20,9 @@ const featuresData: Feature[] = [
     title: "Agenda de cirugias Inteligente",
     paragraph: "Herramientas avanzadas para la planificación y programación de cirugías, permitiendo a los cirujanos organizar su calendario quirúrgico de manera eficiente.",
     btn: "Learn More",
+    title: "Agenda de Cirugías Inteligente",
+    paragraph: "Herramientas de programación avanzadas que te permiten ajustarse a las urgencias y tus prioridades.",
+    btn: "Saber mas",
     btnLink: "/#",
   },
   {
@@ -38,8 +41,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Gestión de Pacientes",
-    paragraph: "Una base de datos segura y fácil de usar para llevar un seguimiento de la historia clínica, notas postoperatorias y seguimiento de pacientes.",
+    title: "Modern Design",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -91,8 +94,8 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Automatización de Tareas Administrativas",
-    paragraph: "Funcionalidades para la automatización de tareas administrativas, como la facturación y el registro de procedimientos.",
+    title: "SaaS Starter Kit",
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
     btn: "Learn More",
     btnLink: "/#",
   },
@@ -124,9 +127,9 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "Automatización Administrativa",
+    paragraph: "Simplificación de procesos administrativos como la facturación médica.",
+    btn: "Saber mas",
     btnLink: "/#",
   },
 ];

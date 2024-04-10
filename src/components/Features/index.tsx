@@ -8,8 +8,8 @@ const Features = () => {
       <div className="container">
         <SectionTitle
           subtitle="Features"
-          title="Características"
-          paragraph="Aqui puedes ver lo que nos hace diferentes al resto"
+          title="Descubre como te podemos ayudar"
+          paragraph="Hay muchas formas de gestionar tus pacientes, esta es la mejor forma de hacerlo."
         />
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
