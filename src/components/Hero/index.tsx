@@ -16,13 +16,12 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
-                  Open-source SaaS Starter Kit and Boilerplate for Next.js
+                 Revoluciona tu práctica con nuestro SaaS para Cirujanos Plásticos
                 </h1>
                 <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  Next.js SaaS Boilerplate and Starter Kit designed and built
-                  for SaaS startups. It comes with all necessary integrations,
-                  pages, and components you need to launch a feature-rich SaaS
-                  websites.
+                Nuestro software simplifica la gestión de pacientes, optimiza procesos y mejora resultados. 
+                Descubre la eficiencia
+                 y el éxito con nuestra solución especializada.
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -30,7 +29,7 @@ const Hero = () => {
                       href="https://nextjstemplates.com/templates/play"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Contact us
+                      Precios
                     </Link>
                   </li>
                   <li>
@@ -56,7 +55,7 @@ const Hero = () => {
                           </clipPath>
                         </defs>
                       </svg>
-                      Star on Github
+                      Contacta con nosotros
                     </Link>
                   </li>
                 </ul>

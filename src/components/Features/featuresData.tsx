@@ -17,9 +17,6 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Agenda de cirugias Inteligente",
-    paragraph: "Herramientas avanzadas para la planificación y programación de cirugías, permitiendo a los cirujanos organizar su calendario quirúrgico de manera eficiente.",
-    btn: "Learn More",
     title: "Agenda de Cirugías Inteligente",
     paragraph: "Herramientas de programación avanzadas que te permiten ajustarse a las urgencias y tus prioridades.",
     btn: "Saber mas",
