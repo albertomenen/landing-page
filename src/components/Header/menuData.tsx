@@ -50,7 +50,7 @@ const menuData: Menu[] = [
       },
       {
         id: 63,
-        title: "Contact Page",
+        title: "Contacto",
         path: "/contact",
         newTab: false,
       },

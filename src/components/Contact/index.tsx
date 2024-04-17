@@ -70,15 +70,15 @@ const Contact = () => {
               "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Send us a Message
+                Contacta con nosotros
               </h3>
-              <form>
+              <form action="https://formbold.com/s/9R7Kg" method="POST">
                 <div className="mb-[22px]">
                   <label
                     htmlFor="fullName"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Full Name*
+                    Nombre Completo*
                   </label>
                   <input
                     type="text"
@@ -106,7 +106,7 @@ const Contact = () => {
                     htmlFor="phone"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Phone*
+                    Telefono*
                   </label>
                   <input
                     type="text"
@@ -120,7 +120,7 @@ const Contact = () => {
                     htmlFor="message"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Message*
+                    Mensaje*
                   </label>
                   <textarea
                     name="message"
@@ -134,7 +134,7 @@ const Contact = () => {
                     type="submit"
                     className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
                   >
-                    Send
+                    Enviar
                   </button>
                 </div>
               </form>

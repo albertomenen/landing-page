@@ -19,6 +19,7 @@ body {
 .sticky-menu #navbarCollapse li > a {
   @apply text-dark hover:text-primary hover:opacity-100 dark:text-white;
 }
+
 #navbarCollapse li .ud-menu-scroll.active {
   @apply opacity-70;
 }
@@ -30,7 +31,7 @@ body {
 }
 
 .sticky-menu .signUpBtn {
-  @apply bg-primary hover:bg-dark text-white hover:text-white;
+  @apply bg-primary hover:bg-secondary text-white hover:text-white;
 }
 
 .navbarTogglerActive > span:nth-child(1) {
@@ -45,7 +46,7 @@ body {
 
 .blog-details,
 .blog-details p {
-  @apply text-body-color dark:text-dark-6 text-base leading-relaxed;
+  @apply text-dark dark:text-dark-6 text-base leading-relaxed; 
 }
 
 .blog-details p {
@@ -56,22 +57,15 @@ body {
   @apply text-dark font-bold dark:text-white;
 }
 
-.blog-details ul {
+.blog-details ul,
+.blog-details ol {
   @apply mb-8 list-inside list-disc space-y-3;
 }
 
 .blog-details ol {
-  @apply mb-8 list-inside list-decimal space-y-3;
+  @apply list-decimal;
 }
 
-.blog-details h1 {
-  @apply text-dark mb-8 text-3xl font-bold dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.28];
-}
-
-.blog-details h2 {
-  @apply text-dark mb-8 text-2xl font-bold dark:text-white sm:text-3xl md:text-[35px] md:leading-[1.28];
-}
-
-.blog-details h3 {
-  @apply text-dark mb-6 text-2xl font-bold dark:text-white sm:text-[28px] sm:leading-[40px];
+.blog-details h1, .blog-details h2, .blog-details h3 {
+  @apply text-dark mb-8 font-bold dark:text-white;
 }
