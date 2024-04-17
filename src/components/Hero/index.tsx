@@ -23,6 +23,15 @@ const Hero = () => {
                 Descubre la eficiencia
                  y el éxito con nuestra solución especializada.
                 </p>
+                <div className="mx-auto mb-10 max-w-[320px]">
+                  <Image
+                    src="/images/hero/breast-surgery.jpg" // Cambia esto por la ruta real de tu imagen
+                    alt="Descripción de la imagen"
+                    width={320} // Ajusta el tamaño según sea necesario
+                    height={320} // Ajusta el tamaño según sea necesario
+                    className="rounded-lg shadow-lg" // Aplica estilos adicionales si lo deseas
+                  />
+                </div>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
