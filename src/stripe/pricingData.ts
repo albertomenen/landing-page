@@ -2,7 +2,7 @@ import { Price } from "@/types/price";
 
 export const pricingData: Price[] = [
   {
-    id: "price_1P6riaIzTEr3BZIaqSX037kw",
+    id: "price_1P6rLzIzTEr3BZIapodVjyJq",
     unit_amount: 100 * 99,
     nickname: "Sub básica",
     offers: [
@@ -15,7 +15,7 @@ export const pricingData: Price[] = [
     ],
   },
   {
-    id: "price_1NQk55LtGdPVhGLefU8AHqHr",
+    id: "price_1P8e0sIzTEr3BZIaRXCAD4wW",
     unit_amount: 199 * 100,
     nickname: "Premium",
     offers: [
@@ -29,8 +29,8 @@ export const pricingData: Price[] = [
     ],
   },
   {
-    id: "price_1NQk4eLtGdPVhGLeZsZDsCNz",
-    unit_amount: 599 * 100,
+    id: "price_1P8kP5IzTEr3BZIaqE65Em6R",
+    unit_amount: 989 * 100,
     nickname: "Empresa",
     offers: [
       "-Creación de 10 perfiles diferentes",
