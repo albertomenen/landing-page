@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Alguna pregunta? Respondemos!"
+          paragraph="Puedes tener miles de preguntas, tenemos las respuestas a las mas comunes pero también puedes contactarnos"
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="¿Cómo aseguro que los datos de mis pacientes son confidenciales?"
+              answer="Todos los datos de los pacientes que están aquí son públicos, son dejados por los propios pacientes, nosotros vamos a asegurar que los datos de los pacientes que te contactan son privados y que cumplen la normativa de seguridad ."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Cuáles son las funcionalidades clave del software para la gestión de pacientes?"
+              answer="Mediante nuestro software puedes gestionar las citas con todos tus pacientes, ademas de poder contactar con ellos y tener una gestión eficiente de los mismos. ."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="¿Cómo se maneja el soporte técnico y la asistencia al cliente?"
+              answer="Nuestro servicio técnico esta disponible 24/7, tienes ademas números de contacto en el caso de que tengas una emergencia y una lista de troubleshooting para saber donde puede estar el problema."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="¿Hay capacidades de personalización dentro del software para adaptarlo a mis necesidades específicas?"
+              answer="Si, tenemos diferentes soluciones para las diferentes necesidades que puedes tener, contacta con nuestro equipo para poder ofrecerte la mejor solución para tu clínica ."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="¿Cuál es el proceso para implementar el software en mi clínica?"
+              answer="En el caso de que decidas empezar con nosotros, puedes ir a la pagina de Precios y suscribirte a una de nuestros servicios, una vez se registré el pago podŕas acceder a tu cuenta con el nombre y contraseña y recibirás un correo con los pasos y la confirmación ."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="¿El software proporciona análisis y reportes detallados sobre las operaciones y los resultados de los pacientes?"
+              answer="Si, nosotros te mandaremos regularmente información acerca de posibles personas que se metan en tu perfil, podrás ver los leads que reciban y los que visiten tu perfil, ademas podrás ver desde que parte de tu ciudad te están escribiendo ."
             />
           </div>
         </div>
