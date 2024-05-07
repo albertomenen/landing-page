@@ -10,11 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#74E6A1',  // Rosa suave
-        secondary: '#4C585C', // Morado claro
-        accent: '#FFFFFF',    // Morado más oscuro
+        primary: '#74E6A1',  
+        secondary: '#4C585C', 
+        accent: '#FFFFFF',   
         dark: '#04080F', 
-        'dark-6': '#333333'    // Un gris oscuro para contrastar
+        'dark-6': '#333333'    
       }
     }
   },
