@@ -4,7 +4,6 @@ import Head from 'next/head';
 import ReactGA from "react-ga"
 
 
-
 const CustomHead = () => (
   <Head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WS8N8BTQS"></script>
