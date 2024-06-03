@@ -8,14 +8,14 @@ import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
-import ReactGA from "react-ga"
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 import CustomHead from "./CustomHead";
+import { usePathname } from "next/navigation"; // Importa usePathname
+import ReactGA from "react-ga";
 
-const TRACKING_ID= "G-8WS8N8BTQS"
-
-ReactGA.initialize(TRACKING_ID)
+const TRACKING_ID = "G-8WS8N8BTQS";
+ReactGA.initialize(TRACKING_ID);
 
 export default function RootLayout({
   children,
@@ -23,22 +23,32 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const [loading, setLoading] = useState<boolean>(true);
+  const pathname = usePathname(); // Utiliza usePathname para obtener la ruta actual
 
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname)
+    if (typeof window !== "undefined") {
+      const handleRouteChange = (url: string) => {
+        ReactGA.pageview(url);
+      };
+
+      // Register pageview for initial load
+      ReactGA.pageview(window.location.pathname);
+
+      // Listen for route changes
+      handleRouteChange(pathname);
+
+      // Cleanup function not needed as usePathname handles changes automatically
+    }
+  }, [pathname]);
+
+  useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
   }, []);
 
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <script async src="https://tally.so/widgets/embed.js"></script>
-
       <CustomHead />
+      <script async src="https://tally.so/widgets/embed.js"></script>
       <body>
         {loading ? (
           <PreLoader />
