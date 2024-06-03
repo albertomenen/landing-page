@@ -10,6 +10,7 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import CustomHead from "./CustomHead";
 
 export default function RootLayout({
   children,
@@ -31,6 +32,7 @@ export default function RootLayout({
       <head />
       <script async src="https://tally.so/widgets/embed.js"></script>
 
+      <CustomHead />
       <body>
         {loading ? (
           <PreLoader />
