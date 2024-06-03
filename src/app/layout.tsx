@@ -17,7 +17,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
 
 
-const TRACKING_ID = "G-8WS8N8BTQS";
+const TRACKING_ID = "G-S7MDM54X68";
 ReactGA.initialize(TRACKING_ID);
 
 export default function RootLayout({
@@ -54,7 +54,7 @@ export default function RootLayout({
       <head>
       <Script 
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-8WS8N8BTQS"
+        src="https://www.googletagmanager.com/gtag/js?id=G-S7MDM54X68"
       ></Script>
       <Script id="google-analytics">
       {`
@@ -62,7 +62,7 @@ export default function RootLayout({
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
   
-          gtag('config', 'G-8WS8N8BTQS');
+          gtag('config', 'G-S7MDM54X68');
           `}
 
         
