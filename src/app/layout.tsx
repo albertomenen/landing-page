@@ -10,10 +10,15 @@ import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
+import CustomHead from "./CustomHead";
 import { usePathname } from "next/navigation"; // Importa usePathname
+import ReactGA from "react-ga";
+import { GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
 
+
 const TRACKING_ID = "G-8WS8N8BTQS";
+ReactGA.initialize(TRACKING_ID);
 
 export default function RootLayout({
   children,
@@ -24,18 +29,18 @@ export default function RootLayout({
   const pathname = usePathname(); // Utiliza usePathname para obtener la ruta actual
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.gtag) {
+    if (typeof window !== "undefined") {
       const handleRouteChange = (url: string) => {
-        window.gtag('config', TRACKING_ID, {
-          page_path: url,
-        });
+        ReactGA.pageview(url);
       };
 
       // Register pageview for initial load
-      handleRouteChange(window.location.pathname);
+      ReactGA.pageview(window.location.pathname);
 
       // Listen for route changes
       handleRouteChange(pathname);
+
+      // Cleanup function not needed as usePathname handles changes automatically
     }
   }, [pathname]);
 
@@ -45,21 +50,28 @@ export default function RootLayout({
 
   return (
     <html suppressHydrationWarning={true} className="!scroll-smooth" lang="en">
+      <CustomHead />
       <head>
-        <Script 
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${TRACKING_ID}`}
-        ></Script>
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${TRACKING_ID}');
+      <Script 
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-8WS8N8BTQS"
+      ></Script>
+      <Script id="google-analytics">
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'G-8WS8N8BTQS');
           `}
-        </Script>
-        <script async src="https://tally.so/widgets/embed.js"></script>
+
+        
+      </Script>
+
       </head>
+
+
+      <script async src="https://tally.so/widgets/embed.js"></script>
       <body>
         {loading ? (
           <PreLoader />
