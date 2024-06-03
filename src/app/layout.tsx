@@ -8,9 +8,14 @@ import { ThemeProvider } from "next-themes";
 import "../styles/index.css";
 import "../styles/prism-vsc-dark-plus.css";
 import ToasterContext from "./api/contex/ToasetContex";
+import ReactGA from "react-ga"
 import { useEffect, useState } from "react";
 import PreLoader from "@/components/Common/PreLoader";
 import CustomHead from "./CustomHead";
+
+const TRACKING_ID= "G-8WS8N8BTQS"
+
+ReactGA.initialize(TRACKING_ID)
 
 export default function RootLayout({
   children,
@@ -20,6 +25,7 @@ export default function RootLayout({
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
     setTimeout(() => setLoading(false), 1000);
   }, []);
 

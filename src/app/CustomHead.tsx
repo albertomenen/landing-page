@@ -1,6 +1,9 @@
 // components/CustomHead.tsx
 import React from 'react';
 import Head from 'next/head';
+import ReactGA from "react-ga"
+
+
 
 const CustomHead = () => (
   <Head>
